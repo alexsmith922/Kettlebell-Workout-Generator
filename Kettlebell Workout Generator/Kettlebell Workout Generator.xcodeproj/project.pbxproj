@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E4171C9275443BA00C6745E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4171C8275443BA00C6745E /* AppDelegate.swift */; };
+		5E4171CB275443BA00C6745E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4171CA275443BA00C6745E /* SceneDelegate.swift */; };
+		5E4171CD275443BA00C6745E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4171CC275443BA00C6745E /* ViewController.swift */; };
+		5E4171D0275443BA00C6745E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4171CE275443BA00C6745E /* Main.storyboard */; };
+		5E4171D2275443BB00C6745E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4171D1275443BB00C6745E /* Assets.xcassets */; };
+		5E4171D5275443BB00C6745E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4171D3275443BB00C6745E /* LaunchScreen.storyboard */; };
+		5E4171E0275443BB00C6745E /* Kettlebell_Workout_GeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4171DF275443BB00C6745E /* Kettlebell_Workout_GeneratorTests.swift */; };
+		5E4171EA275443BB00C6745E /* Kettlebell_Workout_GeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4171E9275443BB00C6745E /* Kettlebell_Workout_GeneratorUITests.swift */; };
+		5E4171EC275443BB00C6745E /* Kettlebell_Workout_GeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4171EB275443BB00C6745E /* Kettlebell_Workout_GeneratorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E4171DC275443BB00C6745E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E4171BD275443BA00C6745E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E4171C4275443BA00C6745E;
+			remoteInfo = "Kettlebell Workout Generator";
+		};
+		5E4171E6275443BB00C6745E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E4171BD275443BA00C6745E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E4171C4275443BA00C6745E;
+			remoteInfo = "Kettlebell Workout Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E4171C5275443BA00C6745E /* Kettlebell Workout Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kettlebell Workout Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4171C8275443BA00C6745E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E4171CA275443BA00C6745E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E4171CC275443BA00C6745E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E4171CF275443BA00C6745E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E4171D1275443BB00C6745E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E4171D4275443BB00C6745E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E4171D6275443BB00C6745E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4171DB275443BB00C6745E /* Kettlebell Workout GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kettlebell Workout GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4171DF275443BB00C6745E /* Kettlebell_Workout_GeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kettlebell_Workout_GeneratorTests.swift; sourceTree = "<group>"; };
+		5E4171E5275443BB00C6745E /* Kettlebell Workout GeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kettlebell Workout GeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4171E9275443BB00C6745E /* Kettlebell_Workout_GeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kettlebell_Workout_GeneratorUITests.swift; sourceTree = "<group>"; };
+		5E4171EB275443BB00C6745E /* Kettlebell_Workout_GeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kettlebell_Workout_GeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E4171C2275443BA00C6745E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4171D8275443BB00C6745E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4171E2275443BB00C6745E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E4171BC275443BA00C6745E = {
+			isa = PBXGroup;
+			children = (
+				5E4171C7275443BA00C6745E /* Kettlebell Workout Generator */,
+				5E4171DE275443BB00C6745E /* Kettlebell Workout GeneratorTests */,
+				5E4171E8275443BB00C6745E /* Kettlebell Workout GeneratorUITests */,
+				5E4171C6275443BA00C6745E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E4171C6275443BA00C6745E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E4171C5275443BA00C6745E /* Kettlebell Workout Generator.app */,
+				5E4171DB275443BB00C6745E /* Kettlebell Workout GeneratorTests.xctest */,
+				5E4171E5275443BB00C6745E /* Kettlebell Workout GeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E4171C7275443BA00C6745E /* Kettlebell Workout Generator */ = {
+			isa = PBXGroup;
+			children = (
+				5E4171C8275443BA00C6745E /* AppDelegate.swift */,
+				5E4171CA275443BA00C6745E /* SceneDelegate.swift */,
+				5E4171CC275443BA00C6745E /* ViewController.swift */,
+				5E4171CE275443BA00C6745E /* Main.storyboard */,
+				5E4171D1275443BB00C6745E /* Assets.xcassets */,
+				5E4171D3275443BB00C6745E /* LaunchScreen.storyboard */,
+				5E4171D6275443BB00C6745E /* Info.plist */,
+			);
+			path = "Kettlebell Workout Generator";
+			sourceTree = "<group>";
+		};
+		5E4171DE275443BB00C6745E /* Kettlebell Workout GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E4171DF275443BB00C6745E /* Kettlebell_Workout_GeneratorTests.swift */,
+			);
+			path = "Kettlebell Workout GeneratorTests";
+			sourceTree = "<group>";
+		};
+		5E4171E8275443BB00C6745E /* Kettlebell Workout GeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E4171E9275443BB00C6745E /* Kettlebell_Workout_GeneratorUITests.swift */,
+				5E4171EB275443BB00C6745E /* Kettlebell_Workout_GeneratorUITestsLaunchTests.swift */,
+			);
+			path = "Kettlebell Workout GeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E4171C4275443BA00C6745E /* Kettlebell Workout Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E4171EF275443BB00C6745E /* Build configuration list for PBXNativeTarget "Kettlebell Workout Generator" */;
+			buildPhases = (
+				5E4171C1275443BA00C6745E /* Sources */,
+				5E4171C2275443BA00C6745E /* Frameworks */,
+				5E4171C3275443BA00C6745E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kettlebell Workout Generator";
+			productName = "Kettlebell Workout Generator";
+			productReference = 5E4171C5275443BA00C6745E /* Kettlebell Workout Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E4171DA275443BB00C6745E /* Kettlebell Workout GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E4171F2275443BB00C6745E /* Build configuration list for PBXNativeTarget "Kettlebell Workout GeneratorTests" */;
+			buildPhases = (
+				5E4171D7275443BB00C6745E /* Sources */,
+				5E4171D8275443BB00C6745E /* Frameworks */,
+				5E4171D9275443BB00C6745E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E4171DD275443BB00C6745E /* PBXTargetDependency */,
+			);
+			name = "Kettlebell Workout GeneratorTests";
+			productName = "Kettlebell Workout GeneratorTests";
+			productReference = 5E4171DB275443BB00C6745E /* Kettlebell Workout GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E4171E4275443BB00C6745E /* Kettlebell Workout GeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E4171F5275443BB00C6745E /* Build configuration list for PBXNativeTarget "Kettlebell Workout GeneratorUITests" */;
+			buildPhases = (
+				5E4171E1275443BB00C6745E /* Sources */,
+				5E4171E2275443BB00C6745E /* Frameworks */,
+				5E4171E3275443BB00C6745E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E4171E7275443BB00C6745E /* PBXTargetDependency */,
+			);
+			name = "Kettlebell Workout GeneratorUITests";
+			productName = "Kettlebell Workout GeneratorUITests";
+			productReference = 5E4171E5275443BB00C6745E /* Kettlebell Workout GeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E4171BD275443BA00C6745E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					5E4171C4275443BA00C6745E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					5E4171DA275443BB00C6745E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 5E4171C4275443BA00C6745E;
+					};
+					5E4171E4275443BB00C6745E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 5E4171C4275443BA00C6745E;
+					};
+				};
+			};
+			buildConfigurationList = 5E4171C0275443BA00C6745E /* Build configuration list for PBXProject "Kettlebell Workout Generator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E4171BC275443BA00C6745E;
+			productRefGroup = 5E4171C6275443BA00C6745E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E4171C4275443BA00C6745E /* Kettlebell Workout Generator */,
+				5E4171DA275443BB00C6745E /* Kettlebell Workout GeneratorTests */,
+				5E4171E4275443BB00C6745E /* Kettlebell Workout GeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E4171C3275443BA00C6745E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4171D5275443BB00C6745E /* LaunchScreen.storyboard in Resources */,
+				5E4171D2275443BB00C6745E /* Assets.xcassets in Resources */,
+				5E4171D0275443BA00C6745E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4171D9275443BB00C6745E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4171E3275443BB00C6745E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E4171C1275443BA00C6745E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4171CD275443BA00C6745E /* ViewController.swift in Sources */,
+				5E4171C9275443BA00C6745E /* AppDelegate.swift in Sources */,
+				5E4171CB275443BA00C6745E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4171D7275443BB00C6745E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4171E0275443BB00C6745E /* Kettlebell_Workout_GeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4171E1275443BB00C6745E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4171EC275443BB00C6745E /* Kettlebell_Workout_GeneratorUITestsLaunchTests.swift in Sources */,
+				5E4171EA275443BB00C6745E /* Kettlebell_Workout_GeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E4171DD275443BB00C6745E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E4171C4275443BA00C6745E /* Kettlebell Workout Generator */;
+			targetProxy = 5E4171DC275443BB00C6745E /* PBXContainerItemProxy */;
+		};
+		5E4171E7275443BB00C6745E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E4171C4275443BA00C6745E /* Kettlebell Workout Generator */;
+			targetProxy = 5E4171E6275443BB00C6745E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E4171CE275443BA00C6745E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E4171CF275443BA00C6745E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E4171D3275443BB00C6745E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E4171D4275443BB00C6745E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E4171ED275443BB00C6745E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E4171EE275443BB00C6745E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E4171F0275443BB00C6745E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPKT426933;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kettlebell Workout Generator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kettlebell-Workout-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5E4171F1275443BB00C6745E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPKT426933;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kettlebell Workout Generator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kettlebell-Workout-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5E4171F3275443BB00C6745E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPKT426933;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kettlebell-Workout-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kettlebell Workout Generator.app/Kettlebell Workout Generator";
+			};
+			name = Debug;
+		};
+		5E4171F4275443BB00C6745E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPKT426933;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kettlebell-Workout-GeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kettlebell Workout Generator.app/Kettlebell Workout Generator";
+			};
+			name = Release;
+		};
+		5E4171F6275443BB00C6745E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPKT426933;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kettlebell-Workout-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kettlebell Workout Generator";
+			};
+			name = Debug;
+		};
+		5E4171F7275443BB00C6745E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SPKT426933;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Kettlebell-Workout-GeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kettlebell Workout Generator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E4171C0275443BA00C6745E /* Build configuration list for PBXProject "Kettlebell Workout Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4171ED275443BB00C6745E /* Debug */,
+				5E4171EE275443BB00C6745E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E4171EF275443BB00C6745E /* Build configuration list for PBXNativeTarget "Kettlebell Workout Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4171F0275443BB00C6745E /* Debug */,
+				5E4171F1275443BB00C6745E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E4171F2275443BB00C6745E /* Build configuration list for PBXNativeTarget "Kettlebell Workout GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4171F3275443BB00C6745E /* Debug */,
+				5E4171F4275443BB00C6745E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E4171F5275443BB00C6745E /* Build configuration list for PBXNativeTarget "Kettlebell Workout GeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E4171F6275443BB00C6745E /* Debug */,
+				5E4171F7275443BB00C6745E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E4171BD275443BA00C6745E /* Project object */;
+}
